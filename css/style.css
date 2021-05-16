@@ -221,6 +221,7 @@
  }
  
  .barra {
+     display: block;
      width: auto;
      height: auto;
      position: absolute;
@@ -228,6 +229,7 @@
  }
  
  .pag2 {
+     display: block;
      width: auto;
      height: auto;
      position: absolute;
