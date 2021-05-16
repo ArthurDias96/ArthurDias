@@ -224,7 +224,7 @@
      display: block;
      width: auto;
      height: auto;
-     position: -ms-page;
+     position: relative;
      top: ;
  }
  
