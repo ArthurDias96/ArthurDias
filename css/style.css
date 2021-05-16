@@ -221,7 +221,7 @@
  }
  
  .barra {
-     display: block;
+     display: flex;
      width: auto;
      height: auto;
      position: -webkit-sticky;
