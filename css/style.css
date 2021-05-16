@@ -1,212 +1,228 @@
- *{
+ * {
      margin: 0;
      padding: 0;
  }
-
-header{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.img-fundo{
-    width:100%;
-    height:100%;
-    overflow: hidden;
-
-   
-}
-
- .banner{
+ 
+ header {
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+     position: relative;
+ }
+ 
+ .img-fundo {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
+ 
+ .banner {
      position: absolute;
      top: 20%;
      left: 10%;
  }
-
- .banner h1{
- 	font-size: 48px;
-    line-height: 0,80;
-    font-weight: 700;
-    font-family: Poppins,system-ui,sans-serif;
-    text-transform: uppercase;
-    align-items: center;
-    color: #D80032;
-    display: block;
+ 
+ .banner h1 {
+     font-size: 48px;
+     line-height: 0, 80;
+     font-weight: 700;
+     font-family: Poppins, system-ui, sans-serif;
+     text-transform: uppercase;
+     align-items: center;
+     color: #D80032;
+     display: block;
  }
-
-.banner h2{
-	font-size: 20px;
-	line-height: 1.20;
-	font-weight: 700;
-	font-family: Poppins,system-ui, sans-serif;
-	text-transform: uppercase;
-	align-items: center;
-	color: #F0F8FF;
-	display: block;
-
-}
-
-.Logo{
-	width: auto;
-	height: auto;
-	position: absolute;
+ 
+ .banner h2 {
+     font-size: 20px;
+     line-height: 1.20;
+     font-weight: 700;
+     font-family: Poppins, system-ui, sans-serif;
+     text-transform: uppercase;
+     align-items: center;
+     color: #F0F8FF;
+     display: block;
+ }
+ 
+ .Logo {
+     width: auto;
+     height: auto;
+     position: absolute;
      top: 5%;
      left: 14%;
-
-}
-
- .Redes{
+ }
+ 
+ .Redes {
      position: absolute;
      top: 5%;
      right: 500px;
  }
-
- .Redes h3{
- 	color: #F0F8FF;
- 	line-height: 1.20;
-	font-weight: 700;
-	font-family: Poppins,system-ui, sans-serif;
-	text-transform: uppercase;
-	align-items: center;
-	display: block;
+ 
+ .Redes h3 {
+     color: #F0F8FF;
+     line-height: 1.20;
+     font-weight: 700;
+     font-family: Poppins, system-ui, sans-serif;
+     text-transform: uppercase;
+     align-items: center;
+     display: block;
  }
-
-.social-media{
-  position: absolute;
-  display: block;
-  top: 5px;
-  right: 450px;
  
-}
-
-.social-media i {
-  background-color:#D80032 ;
+ .social-media {
+     position: absolute;
+     display: block;
+     top: 5px;
+     right: 450px;
+ }
  
-  
-}
-
-.css-eukges {
-    font-size: 1.6rem;
-    margin-top: 80px;
-}
-@media screen and (min-width: 48em)
-.css-eukges {
-    font-size: 1.6rem;
-    margin-top: 80px;
-}
-@media screen and (min-width: 30em)
-.css-eukges {
-    font-size: 1.4rem;
-    margin-top: 70px;
-}
-.css-eukges {
-    border-radius: 8px;
-    font-weight: 600;
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-transition: all 250ms;
-    transition: all 250ms;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    position: relative;
-    white-space: nowrap;
-    vertical-align: middle;
-    line-height: 1.2;
-    outline: none;
-    height: 70px;
-    min-width: 2.5rem;
-    font-size: 1.4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: #D80032;
-    max-width: 350px;
-    margin-top: 50px;
-    width: 280px;
-}
-<style>
-button, input, optgroup, select, textarea {
-    padding: 0px;
-    line-height: inherit;
-    color: inherit;
-}
-<style>
-button, [role="button"] {
-    cursor: pointer;
-}
-<style>
-button {
-    background: transparent;
-    padding: 0px;
-}
-<style>
-button, select {
-    text-transform: none;
-}
-<style>
-button, input {
-    overflow: visible;
-}
-<style>
-button, input, optgroup, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0px;
-    background: #F0F8FF;
-}
-
-*, ::before, ::after {
-    border-width: 0px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.16);
-}
-<style>
-*, ::before, ::after {
-    box-sizing: border-box;
-}
-folha de estilos de agente de usuário
-button {
-    appearance: auto;
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-    border-radius: 2px;
-}
-
-.css-eukges h4{
-	color:#FFFFFF;
-}
+ .social-media i {
+     background-color: #D80032;
+ }
+ 
+ .css-eukges {
+     font-size: 1.6rem;
+     margin-top: 80px;
+ }
+ 
+ @media screen and (min-width: 48em) .css-eukges {
+     font-size: 1.6rem;
+     margin-top: 80px;
+ }
+ 
+ @media screen and (min-width: 30em) .css-eukges {
+     font-size: 1.4rem;
+     margin-top: 70px;
+ }
+ 
+ .css-eukges {
+     border-radius: 8px;
+     font-weight: 600;
+     display: -webkit-inline-box;
+     display: -webkit-inline-flex;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     -webkit-align-items: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -webkit-justify-content: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-transition: all 250ms;
+     transition: all 250ms;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     position: relative;
+     white-space: nowrap;
+     vertical-align: middle;
+     line-height: 1.2;
+     outline: none;
+     height: 70px;
+     min-width: 2.5rem;
+     font-size: 1.4rem;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     background-color: #D80032;
+     max-width: 350px;
+     margin-top: 50px;
+     width: 280px;
+ }
+ 
+ <style>button,
+ input,
+ optgroup,
+ select,
+ textarea {
+     padding: 0px;
+     line-height: inherit;
+     color: inherit;
+ }
+ 
+ <style>button,
+ [role="button"] {
+     cursor: pointer;
+ }
+ 
+ <style>button {
+     background: transparent;
+     padding: 0px;
+ }
+ 
+ <style>button,
+ select {
+     text-transform: none;
+ }
+ 
+ <style>button,
+ input {
+     overflow: visible;
+ }
+ 
+ <style>button,
+ input,
+ optgroup,
+ select,
+ textarea {
+     font-family: inherit;
+     font-size: 100%;
+     line-height: 1.15;
+     margin: 0px;
+     background: #F0F8FF;
+ }
+ 
+ *,
+ ::before,
+ ::after {
+     border-width: 0px;
+     border-style: solid;
+     border-color: rgba(255, 255, 255, 0.16);
+ }
+ 
+ <style>*,
+ ::before,
+ ::after {
+     box-sizing: border-box;
+ }
+ 
+ folha de estilos de agente de usuário button {
+     appearance: auto;
+     -webkit-writing-mode: horizontal-tb !important;
+     text-rendering: auto;
+     color: -internal-light-dark(black, white);
+     letter-spacing: normal;
+     word-spacing: normal;
+     text-transform: none;
+     text-indent: 0px;
+     text-shadow: none;
+     display: inline-block;
+     text-align: center;
+     align-items: flex-start;
+     cursor: default;
+     background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+     box-sizing: border-box;
+     margin: 0em;
+     font: 400 13.3333px Arial;
+     padding: 1px 6px;
+     border-width: 2px;
+     border-style: outset;
+     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+     border-image: initial;
+     border-radius: 2px;
+ }
+ 
+ .css-eukges h4 {
+     color: #FFFFFF;
+ }
+ 
+ #barra {
+     width: auto;
+     height: auto;
+     position: absolute;
+     top: 50%;
+ }
