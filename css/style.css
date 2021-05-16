@@ -224,7 +224,7 @@
      display: block;
      width: auto;
      height: auto;
-     position: fixed;
+     position: -webkit-sticky;
  }
  
  .pag2 {
