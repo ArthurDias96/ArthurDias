@@ -1,163 +1,161 @@
-     * {
-         margin: auto;
-         padding: auto;
-     }
+* {
+margin: auto;
+             padding: auto;
+         }
+         
+         html {
+             scroll-behavior: smooth;
+         }
      
-     html {
-         scroll-behavior: smooth;
-     }
- 
-     header {
-         width: 100%;
-         height: 100%;
-         overflow: hidden;
-     }
-     
-     .img-fundo {
-         display: flex;
-         overflow: hidden;
-     }
-     
-     .banner {
-         position: absolute;
-         top: 20%;
-         left: 10%;
-     }
-     
-     .banner h1 {
-         font-size: 48px;
-         line-height: 0, 80;
-         font-weight: 700;
-         font-family: Poppins, system-ui, sans-serif;
-         text-transform: uppercase;
-         align-items: center;
-         color: #D80032;
-         display: block;
-     }
-     
-     .banner h2 {
-         font-size: 20px;
-         line-height: 1.20;
-         font-weight: 700;
-         font-family: Poppins, system-ui, sans-serif;
-         text-transform: uppercase;
-         align-items: center;
-         color: #F0F8FF;
-         display: block;
-     }
-     
-     .Logo {
-         width: auto;
-         height: auto;
-         position: absolute;
-         top: 5%;
-         left: 14%;
-     }
-     
-     .Logo {
-         width: auto;
-         height: auto;
-         position: absolute;
-         top: 5%;
-         left: 14%;
-     }
-     
-     .css-eukges {
-         border-radius: 8px;
-         font-weight: 600;
-         display: -webkit-inline-box;
-         display: -webkit-inline-flex;
-         display: -ms-inline-flexbox;
-         display: inline-flex;
-         -webkit-appearance: none;
-         -moz-appearance: none;
-         appearance: none;
-         -webkit-align-items: center;
-         -webkit-box-align: center;
-         -ms-flex-align: center;
-         align-items: center;
-         -webkit-box-pack: center;
-         -webkit-justify-content: center;
-         -ms-flex-pack: center;
-         justify-content: center;
-         -webkit-transition: all 250ms;
-         transition: all 250ms;
-         -webkit-user-select: none;
-         -moz-user-select: none;
-         -ms-user-select: none;
-         user-select: none;
-         position: relative;
-         white-space: nowrap;
-         vertical-align: middle;
-         line-height: 1.2;
-         outline: none;
-         height: 70px;
-         min-width: 2.5rem;
-         font-size: 1.4rem;
-         padding-left: 1rem;
-         padding-right: 1rem;
-         background-color: #D80032;
-         max-width: 350px;
-         margin-top: 50px;
-         width: 280px;
-     }
-     
-     *,
-      ::before,
-      ::after {
-         border-width: 0px;
-         border-style: solid;
-         border-color: rgba(255, 255, 255, 0.16);
-     }
-     
-     folha de estilos de agente de usuário button {
-         appearance: auto;
-         text-rendering: auto;
-         color: -internal-light-dark(black, white);
-         letter-spacing: normal;
-         word-spacing: normal;
-         text-transform: none;
-         text-indent: 0px;
-         text-shadow: none;
-         display: inline-block;
-         text-align: center;
-         align-items: flex-start;
-         cursor: default;
-         background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-         box-sizing: border-box;
-         margin: 0em;
-         font: 400 13.3333px Arial;
-         padding: 1px 6px;
-         border-width: 2px;
-         border-style: outset;
-         border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-         border-image: initial;
-         border-radius: 2px;
-     }
-     
-     .css-eukges h4 {
-         color: #FFFFFF;
-     }
-     
-     .barra {
-         display: flex;
-         overflow: hidden;
-     }
-     
-     .pag2 {
-         display: flex;
-         overflow: hidden;
-     }
-     
-     .barra1 {
-         display: flex;
-         overflow: hidden;
-     }
-     
-     .Projetos {
-         display: flex;
-         overflow: hidden;
-     }
+         header {
+             width: 100%;
+             height: 100%;
+             overflow: hidden;
+         }
+         
+         .img-fundo {
+             display: flex;
+             overflow: hidden;
+             height: 700px;
+         }
+         
+         .banner {
+             position: absolute;
+             top: 20%;
+             left: 10%;
+         }
+         
+         .banner h1 {
+             font-size: 48px;
+             line-height: 0, 80;
+             font-weight: 700;
+             font-family: Poppins, system-ui, sans-serif;
+             text-transform: uppercase;
+             align-items: center;
+             color: #D80032;
+             display: block;
+         }
+         
+         .banner h2 {
+             font-size: 20px;
+             line-height: 1.20;
+             font-weight: 700;
+             font-family: Poppins, system-ui, sans-serif;
+             text-transform: uppercase;
+             align-items: center;
+             color: #F0F8FF;
+             display: block;
+         }
+         
+         .Logo {
+             width: auto;
+             height: auto;
+             position: absolute;
+             top: 5%;
+             left: 14%;
+         }
+         
+         .Logo {
+             width: auto;
+             height: auto;
+             position: absolute;
+             top: 5%;
+             left: 14%;
+         }
+         
+         .css-eukges {
+             border-radius: 8px;
+             font-weight: 600;
+             display: -webkit-inline-box;
+             display: -webkit-inline-flex;
+             display: -ms-inline-flexbox;
+             display: inline-flex;
+             -webkit-appearance: none;
+             -moz-appearance: none;
+             appearance: none;
+             -webkit-align-items: center;
+             -webkit-box-align: center;
+             -ms-flex-align: center;
+             align-items: center;
+             -webkit-box-pack: center;
+             -webkit-justify-content: center;
+             -ms-flex-pack: center;
+             justify-content: center;
+             -webkit-transition: all 250ms;
+             transition: all 250ms;
+             -webkit-user-select: none;
+             -moz-user-select: none;
+             -ms-user-select: none;
+             user-select: none;
+             position: relative;
+             white-space: nowrap;
+             vertical-align: middle;
+             line-height: 1.2;
+             outline: none;
+             height: 70px;
+             min-width: 2.5rem;
+             font-size: 1.4rem;
+             padding-left: 1rem;
+             padding-right: 1rem;
+             background-color: #D80032;
+             max-width: 350px;
+             margin-top: 50px;
+             width: 280px;
+         }
+         
+         *,
+          ::before,
+          ::after {
+             border-width: 0px;
+             border-style: solid;
+             border-color: rgba(255, 255, 255, 0.16);
+         }
+         
+         folha de estilos de agente de usuário button {
+             appearance: auto;
+             text-rendering: auto;
+             color: -internal-light-dark(black, white);
+             letter-spacing: normal;
+             word-spacing: normal;
+             text-transform: none;
+             text-indent: 0px;
+             text-shadow: none;
+             display: inline-block;
+             text-align: center;
+             align-items: flex-start;
+             cursor: default;
+             background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+             box-sizing: border-box;
+             margin: 0em;
+             font: 400 13.3333px Arial;
+             padding: 1px 6px;
+             border-width: 2px;
+             border-style: outset;
+             border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+             border-image: initial;
+             border-radius: 2px;
+}
+         
+.css-eukges h4 {
+             color: #FFFFFF;
+}
+         
+.barra{
+        background: red;
+        display: flex;
+        height: 20px;
+}
+
+.img-arredondada{
+border-radius: 50%;
+height: 195px;
+width: 195px;
+}
+.menu{
+    display: flex;
+    left: 100px;
+    
+}
      
      .rodapé {
          display: flex;
@@ -166,8 +164,4 @@
          overflow: hidden;
      }
      
-     .Logo2 {
-         position: absolute;
-         top: 345.3%;
-         left: 45%;
-     }
+    
